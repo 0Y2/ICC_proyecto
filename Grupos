@@ -10,4 +10,4 @@ def gruposM(paises):
       grupo.append(bombos[i][r])
    lista_grupo.append(grupo)
    paises[i].pop(r)
-   return  paises
+   return paises
