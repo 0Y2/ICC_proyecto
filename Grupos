@@ -11,3 +11,13 @@ def gruposM(paises):
    lista_grupo.append(grupo)
    paises[i].pop(r)
    return paises
+
+grupo = []
+lista_grupos = []
+r = random.randint(0,7)
+for i in bombos:
+  grupo.append(i[r])
+  lista_grupos.append(grupo)
+  bombos.pop(i)
+  r -= 1
+print(lista_grupos)
